@@ -1,9 +1,10 @@
 package ipc
 
 import (
-	"github.com/racerxdl/gonx/nx/nxtypes"
-	"github.com/racerxdl/gonx/svc"
 	"unsafe"
+
+	"github.com/ca1e/gonx/nx/nxtypes"
+	"github.com/ca1e/gonx/svc"
 )
 
 // Used for keeping GC from collecting it

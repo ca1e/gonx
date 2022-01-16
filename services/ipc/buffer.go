@@ -2,7 +2,8 @@ package ipc
 
 import (
 	"encoding/binary"
-	"github.com/racerxdl/gonx/nx/nxtypes"
+
+	"github.com/ca1e/gonx/nx/nxtypes"
 )
 
 var (

@@ -1,7 +1,7 @@
 package ipc
 
 import (
-	"github.com/racerxdl/gonx/nx/nxtypes"
+	"github.com/ca1e/gonx/nx/nxtypes"
 )
 
 // PackedMessage represents a IPC Message Data to be packed

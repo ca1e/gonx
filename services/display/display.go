@@ -2,11 +2,12 @@ package display
 
 import (
 	"fmt"
-	"github.com/racerxdl/gonx/nx/nxerrors"
-	"github.com/racerxdl/gonx/nx/nxtypes"
-	"github.com/racerxdl/gonx/services/am"
-	"github.com/racerxdl/gonx/services/gpu"
-	"github.com/racerxdl/gonx/services/vi"
+
+	"github.com/ca1e/gonx/nx/nxerrors"
+	"github.com/ca1e/gonx/nx/nxtypes"
+	"github.com/ca1e/gonx/services/am"
+	"github.com/ca1e/gonx/services/gpu"
+	"github.com/ca1e/gonx/services/vi"
 )
 
 const debugDisplay = false

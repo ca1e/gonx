@@ -1,13 +1,14 @@
 package display
 
 import (
-	"github.com/racerxdl/gonx/font"
-	"github.com/racerxdl/gonx/nx/nxtypes"
-	"github.com/racerxdl/gonx/svc"
 	"image"
 	"image/color"
 	"time"
 	"unsafe"
+
+	"github.com/ca1e/gonx/font"
+	"github.com/ca1e/gonx/nx/nxtypes"
+	"github.com/ca1e/gonx/svc"
 )
 
 const minScreenFps = 30 // 30 fps

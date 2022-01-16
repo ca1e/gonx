@@ -2,11 +2,12 @@ package vi
 
 import (
 	"fmt"
-	"github.com/racerxdl/gonx/internal"
-	"github.com/racerxdl/gonx/nx/nxerrors"
-	"github.com/racerxdl/gonx/services/ipc"
-	"github.com/racerxdl/gonx/services/sm"
 	"unsafe"
+
+	"github.com/ca1e/gonx/internal"
+	"github.com/ca1e/gonx/nx/nxerrors"
+	"github.com/ca1e/gonx/services/ipc"
+	"github.com/ca1e/gonx/services/sm"
 )
 
 const (

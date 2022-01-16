@@ -1,9 +1,10 @@
 package gpu
 
 import (
-	"github.com/racerxdl/gonx/nx/nxerrors"
-	"github.com/racerxdl/gonx/services/nv"
 	"unsafe"
+
+	"github.com/ca1e/gonx/nx/nxerrors"
+	"github.com/ca1e/gonx/services/nv"
 )
 
 const gpuDebug = false

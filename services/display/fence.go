@@ -1,10 +1,11 @@
 package display
 
 import (
-	"github.com/racerxdl/gonx/nx/nxerrors"
-	"github.com/racerxdl/gonx/services/gpu"
-	"github.com/racerxdl/gonx/services/vi"
 	"unsafe"
+
+	"github.com/ca1e/gonx/nx/nxerrors"
+	"github.com/ca1e/gonx/services/gpu"
+	"github.com/ca1e/gonx/services/vi"
 )
 
 type Fence struct {

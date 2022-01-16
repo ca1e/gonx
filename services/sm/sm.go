@@ -2,10 +2,11 @@ package sm
 
 import (
 	"fmt"
-	"github.com/racerxdl/gonx/nx/nxerrors"
-	"github.com/racerxdl/gonx/nx/nxtypes"
-	"github.com/racerxdl/gonx/services/ipc"
-	"github.com/racerxdl/gonx/svc"
+
+	"github.com/ca1e/gonx/nx/nxerrors"
+	"github.com/ca1e/gonx/nx/nxtypes"
+	"github.com/ca1e/gonx/services/ipc"
+	"github.com/ca1e/gonx/svc"
 )
 
 var smInitializations = 0

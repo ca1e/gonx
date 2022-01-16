@@ -2,11 +2,12 @@ package gpu
 
 import (
 	"fmt"
-	"github.com/racerxdl/gonx/nx/nxerrors"
-	"github.com/racerxdl/gonx/nx/nxtypes"
-	"github.com/racerxdl/gonx/services/nv"
-	"github.com/racerxdl/gonx/svc"
 	"unsafe"
+
+	"github.com/ca1e/gonx/nx/nxerrors"
+	"github.com/ca1e/gonx/nx/nxtypes"
+	"github.com/ca1e/gonx/services/nv"
+	"github.com/ca1e/gonx/svc"
 )
 
 type Buffer struct {

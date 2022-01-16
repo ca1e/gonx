@@ -2,11 +2,12 @@ package display
 
 import (
 	"fmt"
-	"github.com/racerxdl/gonx/internal"
-	"github.com/racerxdl/gonx/nx/graphics"
-	"github.com/racerxdl/gonx/nx/nxerrors"
-	"github.com/racerxdl/gonx/services/vi"
 	"unsafe"
+
+	"github.com/ca1e/gonx/internal"
+	"github.com/ca1e/gonx/nx/graphics"
+	"github.com/ca1e/gonx/nx/nxerrors"
+	"github.com/ca1e/gonx/services/vi"
 )
 
 const interfaceToken = "android.gui.IGraphicBufferProducer"

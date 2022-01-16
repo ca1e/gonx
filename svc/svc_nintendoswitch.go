@@ -1,4 +1,4 @@
-// +build nintendoswitch
+//go:build nintendoswitch
 
 // Named wrappers to Runtime SVC
 package svc
@@ -6,8 +6,8 @@ package svc
 import (
 	"device/arm64"
 	"fmt"
-	"github.com/racerxdl/gonx/nx/nxerrors"
-	"github.com/racerxdl/gonx/nx/nxtypes"
+	"github.com/ca1e/gonx/nx/nxerrors"
+	"github.com/ca1e/gonx/nx/nxtypes"
 	"time"
 	"unsafe"
 )

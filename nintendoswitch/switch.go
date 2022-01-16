@@ -2,13 +2,14 @@ package nintendoswitch
 
 import (
 	"fmt"
-	"github.com/racerxdl/gonx/nx/env"
-	"github.com/racerxdl/gonx/services/am"
-	"github.com/racerxdl/gonx/services/display"
-	"github.com/racerxdl/gonx/services/gpu"
-	"github.com/racerxdl/gonx/services/sm"
-	"github.com/racerxdl/gonx/services/vi"
-	"github.com/racerxdl/gonx/svc"
+
+	"github.com/ca1e/gonx/nx/env"
+	"github.com/ca1e/gonx/services/am"
+	"github.com/ca1e/gonx/services/display"
+	"github.com/ca1e/gonx/services/gpu"
+	"github.com/ca1e/gonx/services/sm"
+	"github.com/ca1e/gonx/services/vi"
+	"github.com/ca1e/gonx/svc"
 )
 
 // Configure initializes all necessary services for gonx works

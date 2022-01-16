@@ -2,9 +2,10 @@ package vi
 
 import (
 	"encoding/binary"
-	"github.com/racerxdl/gonx/internal"
-	"github.com/racerxdl/gonx/nx/nxerrors"
 	"unsafe"
+
+	"github.com/ca1e/gonx/internal"
+	"github.com/ca1e/gonx/nx/nxerrors"
 )
 
 // Parcel Represents a parcel

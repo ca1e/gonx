@@ -1,8 +1,8 @@
 package display
 
 import (
-	"github.com/racerxdl/gonx/nx/nxtypes"
-	"github.com/racerxdl/gonx/services/vi"
+	"github.com/ca1e/gonx/nx/nxtypes"
+	"github.com/ca1e/gonx/services/vi"
 )
 
 const (

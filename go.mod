@@ -1,3 +1,3 @@
-module github.com/racerxdl/gonx
+module github.com/ca1e/gonx
 
-go 1.14
+go 1.17

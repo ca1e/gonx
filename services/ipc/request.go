@@ -1,7 +1,7 @@
 package ipc
 
 import (
-	"github.com/racerxdl/gonx/nx/nxtypes"
+	"github.com/ca1e/gonx/nx/nxtypes"
 )
 
 // Maximum allocated descriptors is always 16

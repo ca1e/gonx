@@ -2,17 +2,18 @@ package display
 
 import (
 	"fmt"
-	"github.com/racerxdl/gonx/nx/graphics"
-	"github.com/racerxdl/gonx/nx/memory"
-	"github.com/racerxdl/gonx/nx/nxerrors"
-	"github.com/racerxdl/gonx/nx/nxtypes"
-	"github.com/racerxdl/gonx/services/am"
-	"github.com/racerxdl/gonx/services/gpu"
-	"github.com/racerxdl/gonx/services/nv"
-	"github.com/racerxdl/gonx/services/vi"
-	"github.com/racerxdl/gonx/svc"
 	"image"
 	"unsafe"
+
+	"github.com/ca1e/gonx/nx/graphics"
+	"github.com/ca1e/gonx/nx/memory"
+	"github.com/ca1e/gonx/nx/nxerrors"
+	"github.com/ca1e/gonx/nx/nxtypes"
+	"github.com/ca1e/gonx/services/am"
+	"github.com/ca1e/gonx/services/gpu"
+	"github.com/ca1e/gonx/services/nv"
+	"github.com/ca1e/gonx/services/vi"
+	"github.com/ca1e/gonx/svc"
 )
 
 // SurfaceState Keeps track of the internal state of a \ref surface_t

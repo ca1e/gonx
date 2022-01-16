@@ -2,9 +2,10 @@ package am
 
 import (
 	"encoding/binary"
-	"github.com/racerxdl/gonx/nx/nxerrors"
-	"github.com/racerxdl/gonx/nx/nxtypes"
-	"github.com/racerxdl/gonx/services/ipc"
+
+	"github.com/ca1e/gonx/nx/nxerrors"
+	"github.com/ca1e/gonx/nx/nxtypes"
+	"github.com/ca1e/gonx/services/ipc"
 )
 
 func IwcGetAppletResourceUserId() (nxtypes.ARUID, error) {

@@ -1,6 +1,6 @@
 package nv
 
-import "github.com/racerxdl/gonx/nx/nxtypes"
+import "github.com/ca1e/gonx/nx/nxtypes"
 
 type Surface struct {
 	Width             uint32
